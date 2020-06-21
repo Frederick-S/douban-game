@@ -6,5 +6,5 @@ if (navigation) {
 
   navigation.appendChild(game)
 } else {
-  console.error('Could not find navigation')
+  console.warn('Could not find navigation')
 }
