@@ -3,9 +3,20 @@
   "version": "1.0",
   "description": "Add douban game to navigation.",
   "manifest_version": 2,
-  "content_scripts": [{
-    "js": ["content.js"],
-    "matches": ["https://*.douban.com/*"],
-    "run_at": "document_end"
-  }]
+  "content_scripts": [
+    {
+      "js": [
+        "content.js"
+      ],
+      "matches": [
+        "https://*.douban.com/*"
+      ],
+      "run_at": "document_end"
+    }
+  ],
+  "icons": {
+    "16": "16.png",
+    "48": "48.png",
+    "128": "128.png"
+  }
 }
